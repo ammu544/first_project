@@ -5,12 +5,13 @@ the odd position contains multiple of 2 and the even places contain whole number
 int main()
 {
     int n;
+    printf("enter position");
     scanf("%d",&n);
     if(n%2==1)
     {
         int term=(n+1)/2;
         int res=2*(term-1);
-        printf("%d",res);
+        printf("the number present at given postion is %d",res);
     }
     else
     {
@@ -21,5 +22,6 @@ int main()
     return 0;
 }
 /*output
-3
-2
+enter position3
+the number present at given postion is2*/
+
